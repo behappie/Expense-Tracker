@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&family=Rampart+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Margarine", ui-sans-serif, system-ui, sans-serif;
+  --font-rampart: "Rampart One", "Margarine", cursive;
+}
+
+/* Custom global scrollbar to be blue */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #e8f4fd;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #64b5f6;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1e88e5;
+}
+
